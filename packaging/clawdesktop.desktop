@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=ClawDesktop
+Name[zh_CN]=ClawDesktop 个人助手
+Comment=Personal AI Assistant based on OpenClaw
+Comment[zh_CN]=基于 OpenClaw 的桌面 AI 助手
+Exec=/opt/clawdesktop/bin/ClawDesktop
+Icon=/opt/clawdesktop/lib/icon-256.png
+Terminal=false
+Categories=Utility;Office;Network;
+Keywords=AI;assistant;chat;
+StartupNotify=true
+StartupWMClass=com.openclaw.desktop.DesktopApplication
+X-UOS-Autostart-enabled=false

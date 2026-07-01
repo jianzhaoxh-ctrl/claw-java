@@ -1,0 +1,133 @@
+/* ClawDesktop Dark Theme - Catppuccin Mocha inspired */
+
+.root {
+    -fx-base: #1e1e2e;
+    -fx-background: #1e1e2e;
+    -fx-control-inner-background: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-prompt-text-fill: #585b70;
+    -fx-border-color: #45475a;
+    -fx-selection-bar: #89b4fa;
+    -fx-selection-bar-non-focused: #313244;
+    -fx-accent: #89b4fa;
+}
+
+.label {
+    -fx-text-fill: #cdd6f4;
+}
+
+.text-area {
+    -fx-control-inner-background: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-prompt-text-fill: #585b70;
+}
+
+.text-field {
+    -fx-control-inner-background: #313244;
+    -fx-text-fill: #cdd6f4;
+}
+
+.button {
+    -fx-background-color: #313244;
+    -fx-text-fill: #cdd6f4;
+    -fx-border-color: #45475a;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.button:hover {
+    -fx-background-color: #45475a;
+}
+
+.button:pressed {
+    -fx-background-color: #585b70;
+}
+
+.combo-box {
+    -fx-background-color: #313244;
+    -fx-text-fill: #cdd6f4;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #cdd6f4;
+}
+
+.scroll-pane {
+    -fx-background: #1e1e2e;
+    -fx-background-color: #1e1e2e;
+}
+
+.scroll-bar {
+    -fx-background-color: #181825;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #45475a;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #585b70;
+}
+
+.tab-pane {
+    -fx-background-color: #1e1e2e;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #11111b;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #181825;
+    -fx-text-fill: #a6adc8;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #1e1e2e;
+    -fx-text-fill: #cdd6f4;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cdd6f4;
+}
+
+.list-cell {
+    -fx-text-fill: #cdd6f4;
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #313244;
+}
+
+.menu-bar {
+    -fx-background-color: #11111b;
+}
+
+.menu-bar .menu-button {
+    -fx-text-fill: #cdd6f4;
+}
+
+.menu-item {
+    -fx-text-fill: #cdd6f4;
+    -fx-background-color: #313244;
+}
+
+.menu-item:hover {
+    -fx-background-color: #45475a;
+}
+
+.separator {
+    -fx-background-color: #45475a;
+}
+
+.check-box {
+    -fx-text-fill: #cdd6f4;
+}
+
+.password-field {
+    -fx-control-inner-background: #313244;
+    -fx-text-fill: #cdd6f4;
+}

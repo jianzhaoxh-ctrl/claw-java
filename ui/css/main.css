@@ -1,0 +1,29 @@
+.root {
+    -fx-base: #1e1e2e;
+    -fx-background: #1e1e2e;
+    -fx-control-inner-background: #2a2a3c;
+    -fx-text-background-color: #e0e0e0;
+    -fx-accent: #89b4fa;
+}
+
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.button {
+    -fx-background-color: #313244;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #45475a;
+}
+
+.text-field {
+    -fx-background-color: #313244;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}

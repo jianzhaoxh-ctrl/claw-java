@@ -1,0 +1,17 @@
+# ClawDesktop 桌面集成配置文件
+# 由 jpackage 安装时部署到 /etc/xdg/autostart/ 或 ~/.config/autostart/
+# 开机自启由应用内 AutoStartManager 管理，此文件为系统级默认（管理员可禁用）
+
+[Desktop Entry]
+Type=Application
+Name=ClawDesktop Autostart
+Name[zh_CN]=ClawDesktop 开机自启
+Comment=Start ClawDesktop on login
+Comment[zh_CN]=登录时自动启动 ClawDesktop
+Exec=/opt/clawdesktop/bin/ClawDesktop
+Icon=/opt/clawdesktop/lib/icon-256.png
+Terminal=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=false
+X-UOS-Autostart-enabled=false
+Hidden=false
